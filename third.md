@@ -2,7 +2,6 @@ Assume you oversee a small library and would like to develop a program that look
 #include <iostream>
 #include <map>
 #include <string>
-
 int main() {
     std::map<std::string, std::string> bookMap;
     bookMap["9780132350884"] = "The C++ Programming Language";
@@ -17,6 +16,4 @@ int main() {
     } else {
         std::cout << "Book not available in the library." << std::endl;
     }
-
-    return 0;
 }
